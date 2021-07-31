@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mt-50 {
+  margin-top: 50;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: arial, sans-serif;
+}
+body,
+td,
+a,
+p {
+  font-family: arial, sans-serif;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+nav .left-menu ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  opacity: 0.75;
+  font-size: 13px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+nav .right-menu {
+  margin-right: 20px;
+}
+nav .right-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-menu img {
+  margin-top: 5px;
+}
+
+.right-menu .btn {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4585f3;
+  color: white;
+  text-decoration: none;
+  width: 46px;
+  height: 14px;
+  padding: 8px;
+  text-align: center;
+}
+/* main start */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+main input {
+  display: flex;
+  margin-top: 20px;
+  width: 600px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  outline: none;
+  font-size: 16px;
+  height: 40px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 40px;
+  text-shadow: none;
+  cursor: text;
+  font-weight: 400;
+}
+main .button-container {
+  margin-top: 20px;
+}
+main .search-box {
+  display: flex;
+}
+
+main .search-icon {
+  position: absolute;
+  margin-top: 1.9rem;
+  padding-left: 7px;
+}
+main .voice-icon {
+  position: absolute;
+  margin-top: 1.8rem;
+  margin-left: 570px;
+}
+
+main button {
+  border: 0;
+  padding: 10px;
+  align-items: center;
+  margin-right: 5px;
+}
+/* main end */
+
+/* Footer start */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+footer .left-menu {
+  margin-left: 20px;
+}
+footer .left-menu ul {
+  display: flex;
+  list-style: none;
+}
+footer .left-menu ul li a {
+  text-decoration: none;
+  padding: 20px;
+}
+footer .right-menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+footer .right-menu ul li a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+footer section ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  opacity: 0.75;
+  font-size: 13px;
+}
+footer section ul li :hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Footer end */
