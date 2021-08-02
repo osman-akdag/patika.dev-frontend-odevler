@@ -1,0 +1,64 @@
+body{
+  background-color:rgba(var(--b3f,250,250,250),1)
+}
+
+
+
+:placeholder {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-position: 40%;
+  background-size: 6%;
+  background-image: url("../assets/search-solid.svg");
+  background-repeat: no-repeat;
+  padding-left: 15px;
+}
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  background-color: #fafafa;
+}
+
+.postuserfont {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.storyphoto {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  border: 2px solid rgb(238, 39, 82) !important;
+  margin-right: 7px !important;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.middlearea{
+   max-height: 200px !important;
+}
+
+.rightpanel{
+  position: fixed;
+}
