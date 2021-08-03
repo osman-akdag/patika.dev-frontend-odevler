@@ -1,0 +1,11 @@
+body{
+    background-color: #E9ECEF;
+}
+
+.text-blueviolet{
+    color: blueviolet;
+}
+
+.text-dark-warning{
+    color: rgba(182, 182, 22, 0.795)
+}
