@@ -1,1 +1,1 @@
-# patika.dev-frontend-odevler
+# https://www.patika.dev/ frontend homeworks
